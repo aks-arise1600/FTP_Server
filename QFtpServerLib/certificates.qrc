@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/ssl">
+        <file>softcom.key</file>
+        <file>softcom.crt</file>
+    </qresource>
+</RCC>
