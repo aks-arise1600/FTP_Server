@@ -3,7 +3,11 @@
 
 #include "ftpcommand.h"
 
-class QFile;
+#include <QFile>
+#include <QSslSocket>
+
+
+//class QFile;
 
 // Implements the STOR and APPE commands. Used to upload files to the ftp
 // server.

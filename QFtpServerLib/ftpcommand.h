@@ -3,7 +3,9 @@
 
 #include <QObject>
 
-class QSslSocket;
+#include <QSslSocket>
+
+//class QSslSocket;
 
 // The base class for all FTP commands that need a data connection.
 

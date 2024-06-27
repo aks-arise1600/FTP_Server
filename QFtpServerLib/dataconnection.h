@@ -1,12 +1,16 @@
 #ifndef PASSIVEDATACONNECTION_H
 #define PASSIVEDATACONNECTION_H
 
-class SslServer;
-class QSslSocket;
-class FtpCommand;
+//class SslServer;
+//class QSslSocket;
+//class FtpCommand;
 
 #include <QObject>
 #include <QPointer>
+
+#include "sslserver.h"
+#include "ftpcommand.h"
+#include <QSslSocket>
 
 // This class encapsulates the logic of the creation of both passive and active
 // data connections. In short - there can be only one data connection per

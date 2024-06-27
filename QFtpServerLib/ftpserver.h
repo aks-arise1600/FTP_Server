@@ -6,7 +6,16 @@
 #include <qftpserverlib_global.h>
 #include <QDateTime>
 
-class SslServer;
+#include "ftpcontrolconnection.h"
+#include "sslserver.h"
+
+#include <QDebug>
+#include <QNetworkInterface>
+#include <QSslSocket>
+#include <QHostAddress>
+
+
+//class SslServer;
 
 // The ftp server. Listens on a port, and starts a new control connection each
 // time it gets connected.

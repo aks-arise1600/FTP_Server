@@ -4,9 +4,25 @@
 #include <QObject>
 #include <QPointer>
 
-class QSslSocket;
-class FtpCommand;
-class DataConnection;
+#include <QFileInfo>
+#include <QDateTime>
+#include <QDir>
+#include <QStringList>
+#include <QDir>
+#include <QEventLoop>
+#include <QDebug>
+#include <QTimer>
+#include <QSslSocket>
+
+#include "ftplistcommand.h"
+#include "ftpretrcommand.h"
+#include "ftpstorcommand.h"
+#include "sslserver.h"
+#include "dataconnection.h"
+
+//class QSslSocket;
+//class FtpCommand;
+//class DataConnection;
 
 // Implements the ftp control connection. Reads the ftp commands from the
 // control connection socket, parses each line and maps it to an implemented

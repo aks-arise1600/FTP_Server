@@ -3,9 +3,15 @@
 
 #include "ftpcommand.h"
 
-class QTimer;
-class QFileInfo;
-typedef QList<QFileInfo> QFileInfoList;
+#include <QFile>
+#include <QDir>
+#include <QDateTime>
+#include <QTimer>
+#include <QSslSocket>
+
+//class QTimer;
+//class QFileInfo;
+//typedef QList<QFileInfo> QFileInfoList;
 
 // Implements the LIST command. Prints out a listing of the given directory, in
 // the same format as the unix 'ls -l' command.

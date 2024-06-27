@@ -9,6 +9,14 @@ qt based FTP server using lib
     mkdir qBuild & cd qBuild
     qmake ..
     make
+    
+## cmake build
+
+    git clone https://github.com/anil-arise1600/FTP_Server.git
+    cd FTP_Server
+    mkdir cBuild & cd cBuild
+    cmake ..
+    make
 
 ## Run Server
 
@@ -20,9 +28,9 @@ start
 
     ftpServerWindow/ftpServerWindow
 
-Now start any ftp client to access files
-For example filezilla.
-Default credentail details
-User ID : admin
-Password : admin123
-Port : 2323
+* Now start any ftp client to access files. i. e. FTP client [filezilla](https://filezilla-project.org/).
+
+* Default credentail details
+1. User ID : admin
+2. Password : admin123
+3. Port : 2323

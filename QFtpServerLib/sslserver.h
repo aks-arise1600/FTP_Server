@@ -3,7 +3,11 @@
 
 #include <QTcpServer>
 
-class QSslSocket;
+#include <QSslSocket>
+#include <QSslKey>
+#include <QDir>
+
+//class QSslSocket;
 
 // A simple SSL server. Returns a QSslSocket instead of a QTcpSocket, but
 // started in unencrypted mode, so it can be used as a regular QTcpServer, as

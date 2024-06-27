@@ -1,19 +1,7 @@
 #include "ftpcontrolconnection.h"
-#include "ftplistcommand.h"
-#include "ftpretrcommand.h"
-#include "ftpstorcommand.h"
-#include "sslserver.h"
-#include "dataconnection.h"
 
-#include <QFileInfo>
-#include <QDateTime>
-#include <QDir>
-#include <QStringList>
-#include <QDir>
-#include <QEventLoop>
-#include <QDebug>
-#include <QTimer>
-#include <QSslSocket>
+
+
 
 FtpControlConnection::FtpControlConnection(QObject *parent, QSslSocket *socket, const QString &rootPath, const QString &userName, const QString &password, bool readOnly) :
     QObject(parent)

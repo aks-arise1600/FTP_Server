@@ -1,10 +1,7 @@
 #include "ftpserver.h"
-#include "ftpcontrolconnection.h"
-#include "sslserver.h"
 
-#include <QDebug>
-#include <QNetworkInterface>
-#include <QSslSocket>
+
+
 
 FtpServer::FtpServer(QObject *parent, const QString &rootPath, int port, const QString &userName, const QString &password, bool readOnly, bool onlyOneIpAllowed) :
     QObject(parent)
