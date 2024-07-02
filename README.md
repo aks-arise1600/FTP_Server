@@ -4,7 +4,7 @@ qt based FTP server using lib
 
 ## qmake build
 
-    git clone https://github.com/anil-arise1600/FTP_Server.git
+    git clone https://github.com/aks-arise1600/FTP_Server.git
     cd FTP_Server
     mkdir qBuild & cd qBuild
     qmake ..
@@ -12,7 +12,7 @@ qt based FTP server using lib
     
 ## cmake build
 
-    git clone https://github.com/anil-arise1600/FTP_Server.git
+    git clone https://github.com/aks-arise1600/FTP_Server.git
     cd FTP_Server
     mkdir cBuild & cd cBuild
     cmake ..
